@@ -15,5 +15,5 @@
 \beamer@subsectionintoc {4}{2}{Access control}{46}{0}{4}
 \beamer@sectionintoc {5}{General}{70}{0}{5}
 \beamer@subsectionintoc {5}{1}{Facebook style notifications}{71}{0}{5}
-\beamer@subsectionintoc {5}{2}{Miscellaneous}{74}{0}{5}
-\beamer@sectionintoc {6}{Conclusion}{76}{0}{6}
+\beamer@subsectionintoc {5}{2}{Miscellaneous}{79}{0}{5}
+\beamer@sectionintoc {6}{Conclusion}{81}{0}{6}

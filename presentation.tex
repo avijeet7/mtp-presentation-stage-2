@@ -133,6 +133,7 @@
   \item {
     Types of users:
     \begin{itemize}
+    	\item Content developer
     	\item Instructor
     	\item Student
     \end{itemize}
@@ -817,7 +818,7 @@ Several graph generation libraries used to generate initial course graphs:
 	\begin{block}{Problem Statement}
 	\begin{itemize}
 		\item Frequent updates in courseware
-		\item Students may be unaware
+		\item Students may be unaware of the updates
 		\item Need for an interface for quick navigation to the updates
 	\end{itemize}
 	\end{block}
@@ -836,6 +837,66 @@ Several graph generation libraries used to generate initial course graphs:
 		\item Pending notification must be displayed
 		\item Hyperlinks must be provided for easy navigation
 	\end{itemize}
+\end{frame}
+
+\begin{frame}{Design}{Storing the notifications}
+	\textbf{Storing the notifications (PUSH)}
+	\begin{enumerate}
+		\item \textbf{Notice} table stores the notification data
+		\begin{itemize}
+			\item \textit{course}: Foreign key to the course id
+			\item \textit{notice\_data}: Data displayed in the notification
+			\item \textit{notice\_url}: Hyperlinks of the updates
+			\item \textit{notice\_date}: Date and time
+		\end{itemize}
+		\item \textbf{ClearNotice} table stores the notifications clearing time
+		\begin{itemize}
+			\item \textit{user}: One to one mapping to the current user
+			\item \textit{clear\_time}: Stores time of clearing the notification
+		\end{itemize}
+	\end{enumerate}
+	\vspace{0.2in}
+	A function \textbf{add\_new\_notice()} has been created which pushes the notifications to the database
+\end{frame}
+
+\begin{frame}{Design}{Retrieving the notifications}
+	
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{./media/notif_flow}
+\caption{Flow chart showing the working of notifications retrieval}
+\label{fig:notif_flow}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Design}{User Interface}
+\textbf{User Interface}
+\begin{itemize}
+	\item A badge shows the number of pending notifications
+	\item Drop down list shows the categorized view
+\end{itemize}
+\begin{figure}
+\centering
+\includegraphics[width=0.3\linewidth]{./media/notif_ui}
+\caption{Notifications indicator along with the drop down list}
+\label{fig:notif_ui}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Design}{Detailed notifications view}
+\textbf{Detailed notifications view}
+	\begin{itemize}
+		\item Every single notifications is shown in a categorized way
+		\item These notifications can be used for navigation to those updates
+	\end{itemize}
+	\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{./media/detailed_view}
+	\label{fig:detailed_view}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{ASD}
 \end{frame}
 
 \subsection{Miscellaneous}
