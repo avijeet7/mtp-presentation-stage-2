@@ -1,0 +1,410 @@
+\documentclass[13pt]{beamer}
+\usepackage{hyperref}
+\usepackage{amsmath}
+\usepackage{enumitem}
+\usepackage{lipsum}
+
+\usetheme{CambridgeUS}
+\usecolortheme{dolphin}
+%\usetheme{Malmoe}
+%\usecolortheme{seahorse}
+
+%\begin{frame}{Table of Content}
+%\tableofcontents[currentsection,currentsubsection]
+%\end{frame}
+
+% redefine default beamer item labels
+\setitemize{label=\usebeamerfont*{itemize item}%
+  \usebeamercolor[fg]{itemize item}
+  \usebeamertemplate{itemize item}}
+  
+    
+    
+\title{E-Learning Platform Development \\ Bodhitree}
+\author{Pankaj S Gaikwad \\ 133059010 }
+
+\begin{document}
+\maketitle
+
+\section{Outline}
+\begin{frame}
+    \frametitle{Outline}
+    \begin{itemize}
+	\item Introduction
+	\item MOOCs variants
+	\item Design perspectives
+	\item Evaluation techniques
+	\item Instructional quality of MOOCs
+	\item MOOCs potentials
+	\item Bodhitree
+	\item Conclusion \& future work
+    \end{itemize}
+\end{frame}
+
+
+
+\section{Introduction}
+\begin{frame}
+	\frametitle{Introduction}
+
+	\begin{itemize}
+	  \item E-Learning concept
+	  \item Definition
+	   \begin{itemize}
+		 \item Massive: many participants (hundreds to thousands)
+		 \item Open: free of cost, anyone can register
+		 \item Online: available on internet
+		 \item Courses: curriculum unit
+	  \end{itemize}
+	  \item Recent developments
+	  \begin{itemize}
+		 \item CCK'08 - First MOOC
+		 \item Rise of providers: Coursera, Udacity, EdX
+		 \item Other platforms: NPTEL, Open2Study
+		 \item Quasi MOOCs: Khan Academy, Peer-to-peer University (P2PU)
+	  \end{itemize}
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Challenges in MOOCs}
+	    \begin{itemize}
+	     \item High dropout rate
+	     \item Assessment
+	     \item Feedback
+	     \item Lack of human interaction
+	     \item Self-learning centered
+	     \item Actual access to only privileged ones
+	    \end{itemize}
+
+\end{frame}
+
+
+\begin{frame}
+    \frametitle{MOOC vs Learning Management System}
+    \begin{table}[ht]
+    \begin{tabular}{|l|l|l|}
+        \hline
+        ~                & \textbf{MOOC Platforms}                & \textbf{LMS}                          \\ \hline \hline
+        Goal             & \textit{replace} classrooms 	 & \textit{assist} classrooms \\ \hline
+        Course building  & can be built   		 & Resource holder  \\ \hline
+        Networking       & More (blogs)    	         & Less (wiki,forums)  \\ \hline
+        Size,scalability & Large size, highly scalable   & Small size                   \\ \hline
+        Access           & Lifelong access               & Limited duration access      \\ \hline
+        Establishments   & Late 2000's                   & Early 1960's                 \\ \hline
+        Examples         & Coursera, EdX                 & Moodle, Blackboard           \\
+        \hline
+    \end{tabular}
+    %\caption{MOOC Platforms vs. LMS}
+    \label{tab:moocvslms}
+\end{table}
+
+\end{frame}
+
+\section{MOOCs variants}
+\begin{frame}
+	\frametitle{MOOC variants}
+	\begin{itemize}
+	  \item Attributes of MOOCs
+	  \begin{itemize}
+		\item Massive, open, online, courses
+		\item Discussion boards
+		\item Online quizzes, instruction videos, reading materials
+		\item Evaluation: Peer grading and auto grading
+		\item Social networking 
+	  \end{itemize}
+	  %\item xMOOC vs cMOOC 
+	  %\item Blended MOOCs
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	    \frametitle{xMOOC vs cMOOC}
+%	    \begin{itemize}
+%		\item Concept
+%		\item Dedicated platform
+%		\item Content orientation
+%		\item Assignments/Exams
+%		\item Feedback
+%		\item Learning analytics
+%		\item Certification
+%	    \end{itemize}
+\begin{table}[ht]
+\resizebox{\textwidth}{!}{
+    \begin{tabular}{|l|l|l|}
+        \hline
+        Criteria/Variant           & \textbf{xMOOC}                      & \textbf{cMOOC}                                                                        \\ \hline \hline
+        Full form                   &  Extensive MOOCs                     & Connectivist MOOCs                                                           \\ \hline
+        Dedicated platform 	   & Yes                                 & No, (shared platform/ \\
+        ~			   &	~				 &social media)                                    \\ \hline
+        Content                    & Instructor driven   		 & Participant driven                                                    \\ \hline
+        Network Dependence         & Large, few active participants 	 & Moderate, active learners                                                    \\ \hline
+        personal interactions	   & Very less 				 & High                                                    \\ \hline
+        Assignments/Exams          & Computer based online               & No formal assignments                                                        \\ \hline
+        Discussion Space           & Dedicated, unmoderated              & Use of social \\
+        ~			   & ~					 & networking sites \\ \hline
+        Assessment                 & Auto-grading                        & Peer grading            \\ \hline
+        Feedback                   & Not supported                       & Peer feedback     \\ \hline
+        Learning Analytics         & Supported                           & Not supported                                                                \\ \hline
+        Certification	           & Supported 				 & Not supported \\
+        ~ 			   & not accepted (non-credit)		 &(autonomous learners)                                         \\ \hline
+        Examples		   & Coursera, EdX			 & EduMOOC, CCK08 \\
+        \hline
+    \end{tabular}}
+    \caption{xMOOC vs. cMOOC}\label{tab:xmoocvscmooc}
+\end{table}
+\end{frame}
+
+\begin{frame}
+	    \frametitle{Adaptive MOOCs}
+	    \begin{itemize}
+		\item Concept
+		\item Learning strategies: apprentice, inductive, incidental, deductive, discovery
+		\item Content reorganization
+		\item Collaborative nature
+		\item Multiple paths for problem solutions
+		\item Intelligent feedback
+		\item Personalized learning environment
+
+	    \end{itemize}
+\end{frame}
+
+\begin{frame}
+\frametitle{MOOCs: Types and Relation with classroom teaching}
+ 	\begin{figure}[ht]
+	    \begin{center}
+		%\includegraphics[scale=0.4]{moocs.jpg}
+	    \end{center}
+	    \caption{MOOCs: Types and relation}
+	\end{figure}
+\end{frame}
+
+
+\section{Design perspectives}
+\begin{frame}
+	\frametitle{Foundation Stones for design}
+	\begin{figure}[ht]
+	    \begin{center}
+		%\includegraphics[scale=0.4]{fs.jpg}
+	    \end{center}
+	   %\caption{Ref: Assembling pieces of MOOCs jigsaw puzzle- Sivamuni et al.}
+	\end{figure} 
+    Ref: Assembling pieces of MOOCs jigsaw puzzle- Sivamuni et al.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Design criteria}
+	\begin{itemize}
+	 \item Technological criteria
+	    \begin{itemize}
+		\item User interface
+		\item Video content
+		\item Learning \& social tools
+		\item Learning analytics
+	    \end{itemize}
+
+	 \item Pedagogical criteria
+	 \begin{itemize}
+		\item Lecture organization
+		\item Cultural diversity
+		\item E-Assessment
+		\item Peer assessment
+	    \end{itemize}
+
+	\end{itemize}
+
+\end{frame}
+
+
+\section{Evaluation techniques}
+\begin{frame}
+	\frametitle{Evaluation Schemes}
+	\begin{itemize}
+	  \item Instructor grading
+	  \item Automated grading
+	  \item Peer grading
+	\end{itemize}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Automated grading vs peer grading}
+	\begin{table}[ht]
+	\resizebox{\textwidth}{!}{
+	\begin{tabular}{|l|l|l|}
+        \hline
+        Criteria/Scheme           & \textbf{Automated Grading} & \textbf{Peer Grading}                 \\ \hline \hline
+        Evaluator                 & Machine           & Course participant           \\ \hline
+        Grading Scale             & Prefixed          & Dependant on submission type \\ \hline
+        Score Bias                & Not biased        & Biased                       \\ \hline
+        Variance from True Score  & Large             & Moderate                     \\ \hline
+        Multiple Choice Questions & Supported         & Supported                    \\ \hline
+        Short Answer              & Supported         & Supported                    \\ \hline
+        Essay/Long Answer         & Not supported     & Supported                    \\ \hline
+        Feedback                  & Not supported     & Supported(peer feedback)     \\ \hline
+        Ground Truth Submissions  & Not required      & Supported                    \\ \hline
+        Supported MOOC Types      & xMOOC             & cMOOC, xMOOC(small sized)    \\
+        \hline
+    \end{tabular}}
+     \caption{Evaluation Techniques} \label{tab:eval}
+\end{table}
+\end{frame}
+
+\begin{frame}
+	\frametitle{Automatic Essay Scoring}
+	\begin{itemize}
+	  \item AES-Holistic grader
+		\begin{itemize}
+		 \item Overall score
+		 \item Varies from true score
+		 \item Effective in short answer type questions
+		\end{itemize}
+
+	  \item AES-Rubrics grader 
+		\begin{itemize}
+		    \item Multiple scores based on rubrics
+		    \item Predecided rubrics
+		    \item Final score is average
+		    \item Effective in long answers/essay type questions
+		    \end{itemize}
+	   \item Limitations
+	\end{itemize}
+
+\end{frame}
+
+
+
+\begin{frame}
+	\frametitle{Peer grading models}
+	\textbf{Aim} :Estimate the true score of peer graded submissions. \\
+	\textbf{Terms}:\\  1] True score ($S_u$) for a submission $u$ : unknown/to be estimated.\\
+	2] Grader bias ($b_v$) of grader $v$: tendency to inflate or deflate from actual score. \\ 
+	3] Grader reliability($\tau_v$): the closeness of bias-corrected score to true score \\ 
+	4] Observed score : median of set ($Z = {z}^{u}_{v}$) of scores assigned by all peer graders.\\
+	Objective = $P(\{S_u\}_{u\in U}, \{b_v\}_{v \in V}, \{\tau_v\}_{v \in V }| Z)$ \newline
+	Circular dependence: $S_u$  and $b_v$, posterior probability: \textbf{hard to compute}. \\
+	\textbf{Gibbs sampling} to sample true score; average:- sampled true score $\hat{S_u}$. 
+	%From this sampled true score, the grader biases are estimated, and in turn used to compute actual true scores.
+\end{frame}
+
+\section{Instructional quality}
+\begin{frame}
+	\frametitle{First principles of instruction}
+		\begin{figure}[ht]
+	    \begin{center}
+		%\includegraphics[scale=0.25]{fpi.jpg}
+	    \end{center}
+	\end{figure}
+	Ref: Instructional quality of MOOCs - Margaryan et al.
+\end{frame}
+
+\begin{frame}
+	\frametitle{Myths about MOOCs}
+	\begin{itemize}
+	  \item MOOCs will affect instructional quality, faculties and TAs will be fired
+	  \item MOOCs does not support small-group discussions, face-to-face interaction with instructor
+	  \item MOOCs distract faculties from improvisation in on-campus pedagogy
+	  \item MOOCs reduce diversity of teaching methods
+	\end{itemize}
+\end{frame}
+
+\section{MOOCs potentials}
+\begin{frame}
+	\frametitle{Potential research areas}
+	\begin{itemize}
+	  \item Educational Data mining \& Learning analysis
+	  \item Social network analysis methods
+	  \item E-portfolio
+	  \item Competence management
+	  \item Self-review
+	  \item Lifelong technical support
+	  \item Content personalization
+	  \item Certification
+	\end{itemize}
+\end{frame}
+
+
+\section{Bodhitree}
+\begin{frame}
+\frametitle{Overview}
+    \begin{itemize}
+     \item Bodhitree is a platform being developed in CSE Department, IIT Bombay.
+     \item Aim: to provide quality education through personalized, flexible, complete learning.
+     \item Encourages blended MOOC concept.
+     \item Course format: similar to xMOOCs.
+     \item Instructional videos with embedded quizzes
+     \item Student progress is recorded. 
+     \item Course materials: form of chapters
+     \item Discussion forums and chat-rooms
+    \end{itemize}
+\end{frame}
+\begin{frame}
+\frametitle{Architecture}    
+\begin{figure}[ht]
+\begin{center}
+%\includegraphics[scale=0.25]{arch.jpg}
+\end{center}
+\caption{Tiered Architecture}\label{fig:arch}
+\end{figure}
+\end{frame}
+
+\section{Conclusion \& Future work}
+\begin{frame}
+	\frametitle{Conclusion}
+	\begin{itemize}
+	  \item Selection of \textit{platform} is non-trivial.
+	  \item Idea design specifications to be followed strictly. Evaluation techniques to be improved.
+	  \item Learning analytics \& effective feedbacks are necessary.
+	  \item Social network tools for building network.
+	  \item Grading schemes can be enhanced using auto graders, intelligent peer grading.
+	  \item Personalized learning environment creation, need for authoring tools, certification 
+	\end{itemize}
+\end{frame}
+
+
+\begin{frame}
+%	\frametitle{Thank you}
+	\begin{center}
+	      \textbf{Thank You}
+	\end{center}
+
+\end{frame}
+
+\section{References}
+\begin{frame}[shrink=50]
+%\lipsum[10]
+\frametitle{References}
+%\setbeamerfont{References}{size=\small}
+\begin{thebibliography}{1}
+\bibitem{fox}Armando Fox. From MOOCs to SPOCs. In \textit{Communications of the ACM}, CASMâ€™13, pages 38â€“40. ACM, 2013.
+
+\bibitem{yousef1}Yousef, Chatti, Schroeder, Wosnitza. What Drives a Successful MOOC? An Empirical Examination of Criteria to Assure Design Quality of MOOCs. In \textit{Proceedings of 14th International Conference on Advanced Learning Technologies}, ICALTâ€™14, pages 44â€“48. IEEE, 2014.
+
+\bibitem{sivamuni} Sivamuni, Bhattacharya . Assembling pieces of MOOCs Jigsaw Puzzle. In \textit{Proceedings of International Conference in MOOC, Innovation and Technology in Education}, MITEâ€™13, pages 393â€“398. IEEE, 2013.
+
+\bibitem{kay}Kay, Reinmann, Diebold, Kummerfield . MOOCs:So Many Learners, So Much Potential ... In \textit{IEEE Intelligent Systems}, AIEDâ€™13, pages 2â€“9. IEEE, 2013.
+
+\bibitem{sonwalkar} Nishikant Sonwalkar. The first Adaptive MOOC: A Case Study on Pedagogy Framework and Scalable Cloud Architecture-Part I, 2013.
+
+\bibitem{reily}Reilly, Stafford, Williams, Corliss . Evaluating the Validity and Applicability of Automated Essay Scoring in two Massive Open Online Courses. In \textit{Proceedings of The International Review of
+Research in Open and Distributed Learning}, IRRODLâ€™14, 2014.
+
+\bibitem{piech} Piech, Chen, Chuong Do, Huang, Andrew Ng, Koller. Tuned Models of Peer Assessment in MOOCs. In \textit{Communications of the ACM}, 2013.
+
+\bibitem{yousef2} Yousef, Chatti, Schroeder, Wosnitza, Jakobs . Moocs: A Review of the State-of-the-Art. In \textit{Proceedings of 6th International Conference on Computer Supported Education}, cseduâ€™14,pages 9â€“20. IEEE, 2014.
+
+\bibitem{margaryan}  Margaryan, Bianco, Littlejohn. Instructional quality of massive open online courses(MOOCs).In \textit{Computers \& Education}, pages 77â€“83. Elsevier, 2014.
+
+\bibitem {elearn} \href{http://www.webopedia.com/TERM/E/e_learning.html}{E-Learning information on Webopedia}
+
+\bibitem {oer} \href{http://en.wikipedia.org/wiki/Open_educational_resources}{Open educational resources}
+
+\bibitem {blendedmooc} \href{http://campustechnology.com/articles/2013/08/21/blended-moocs-the-best-of-both-worlds.aspx}{Blended MOOCs}
+
+\bibitem {btree} \href{http://bodhitree.cse.iitb.ac.in/mission/}{ Bodhitree}
+
+\end{thebibliography}
+
+\end{frame}
+%\end{thebibliography}
+\end{document}
+
