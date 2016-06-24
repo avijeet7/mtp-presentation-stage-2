@@ -48,10 +48,10 @@
 %\usetheme{Szeged}
 %\usetheme{Warsaw}
 
-\title[Feature addition to Bodhitree]{Enhancement of Bodhitree through the}
+\title[Feature addition to Bodhitree]{Enhancement of Bodhitree through the \\ Development of Additional Features}
 
 % A subtitle is optional and this may be deleted
-\subtitle{Development of Additional Features}
+%\title{Development of Additional Features}
 
 \author{Avijeet Gaikwad \\ 143050101}
 
@@ -83,23 +83,23 @@
 % Delete this, if you do not want the table of contents to pop up at
 % the beginning of each subsection:
 
-%\AtBeginSection[]
-%{
-%  \begin{frame}<beamer>{Outline}
-%  	\begin{multicols}{2}
-%	  \tableofcontents[currentsection]
-%	\end{multicols}
-%  \end{frame}
-%}
-%
-%\AtBeginSubsection[]
-%{
-%  \begin{frame}<beamer>{Outline}
-%  	\begin{multicols}{2}
-%	  \tableofcontents[currentsection,currentsubsection]
-%	\end{multicols}
-%  \end{frame}
-%}
+\AtBeginSection[]
+{
+  \begin{frame}<beamer>{Outline}
+  	\begin{multicols}{2}
+	  \tableofcontents[currentsection]
+	\end{multicols}
+  \end{frame}
+}
+
+\AtBeginSubsection[]
+{
+  \begin{frame}<beamer>{Outline}
+  	\begin{multicols}{2}
+	  \tableofcontents[currentsection,currentsubsection]
+	\end{multicols}
+  \end{frame}
+}
 
 % Let's get started
 \begin{document}
@@ -815,7 +815,27 @@ Several graph generation libraries used to generate initial course graphs:
 
 \begin{frame}{Facebook style notifications}
 	\begin{block}{Problem Statement}
+	\begin{itemize}
+		\item Frequent updates in courseware
+		\item Students may be unaware
+		\item Need for an interface for quick navigation to the updates
+	\end{itemize}
 	\end{block}
+\end{frame}
+
+\begin{frame}{Specifications}
+	\begin{itemize}
+		\item Notifications must cover the following updates in a course:
+		\begin{itemize}
+			\item Publishing a new concept
+			\item Addition of new videos and documents
+			\item Publishing new quizzes
+			\item Uploading marksheet
+			\item Addition of new threads in discussion forum
+		\end{itemize}
+		\item Pending notification must be displayed
+		\item Hyperlinks must be provided for easy navigation
+	\end{itemize}
 \end{frame}
 
 \subsection{Miscellaneous}
