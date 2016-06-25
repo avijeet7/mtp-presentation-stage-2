@@ -86,18 +86,18 @@
 \AtBeginSection[]
 {
   \begin{frame}<beamer>{Outline}
-  	\begin{multicols}{2}
+%  	\begin{multicols}{2}
 	  \tableofcontents[currentsection]
-	\end{multicols}
+%	\end{multicols}
   \end{frame}
 }
 
 \AtBeginSubsection[]
 {
   \begin{frame}<beamer>{Outline}
-  	\begin{multicols}{2}
+%  	\begin{multicols}{2}
 	  \tableofcontents[currentsection,currentsubsection]
-	\end{multicols}
+%	\end{multicols}
   \end{frame}
 }
 
@@ -109,9 +109,9 @@
 \end{frame}
 
 \begin{frame}{Outline}
-  \begin{multicols}{2}
+%  \begin{multicols}{2}
     \tableofcontents
-  \end{multicols}
+%  \end{multicols}
   % You might wish to add the option [pausesections]
 \end{frame}
 
@@ -119,35 +119,29 @@
 % and table of contents.
 \section{Bodhitree}
 
-\subsection{Introduction}
+%\subsection{Introduction and Overview}
 
 \begin{frame}{Bodhitree}{Introduction and Details}
   \begin{itemize}
   \item {
     Bodhitree is an e-learning platform
     \begin{itemize}
-    	\item Design to mimic classroom setting
-    	\item Host multimedia textbooks
+    	\item Design to mimic classroom setting (Bodhi-class)
+    	\item Host multimedia textbooks (Bodhi-book)
     \end{itemize}
   }
   \item {
     Types of users:
     \begin{itemize}
-    	\item Instructor
-    	\item Student
+    	\item Content developer - \textit{Content creation}
+    	\item Instructor - \textit{Course offering}
+    	\item Student - \textit{Register for the course offering}
     \end{itemize}
-  }
-  \item {
-  	Types of courses
-	\begin{itemize}
-		\item Bodhi-class
-		\item Bodhi-book
-	\end{itemize}
   }
 \end{itemize}
 \end{frame}
 
-\subsection{Courses: Bodhi-class and Bodhi-book}
+%\subsection{Courses: Bodhi-class and Bodhi-book}
 
 % You can reveal the parts of a slide one at a time
 % with the \pause command:
@@ -170,7 +164,7 @@
 	\end{figure}
 \end{frame}
 
-\subsection{Components}
+%\subsection{Components}
 
 \begin{frame}{Overview of the components that constitute Bodhitree}
   	\begin{itemize}
@@ -203,7 +197,16 @@
   	\end{itemize}
 \end{frame}
 
-\subsection{Development details}
+\begin{frame}{Terminology}
+	\textbf{Components of Bodhitree (Hierarchy)}\vspace{-0.1in}
+	\begin{figure}
+	\centering
+	\includegraphics[width=0.8\linewidth]{./media/bt_com1}
+	\label{fig:bt}
+	\end{figure}
+\end{frame}
+
+%\subsection{Development details}
 
 \begin{frame}{Development details}
 	\begin{itemize}
@@ -224,7 +227,7 @@
 
 \section{Objective and Overview}
 
-\subsection{Motivation}
+%\subsection{Motivation}
 
 \begin{frame}{Objective and Motivation}
 	\begin{itemize}
@@ -235,47 +238,43 @@
 			\item Student's and Instructor's feedback
 			\item Brainstorming sessions
 		\end{itemize}
-		\item Classification of features pertaining to:
+		\item Development of features motivated by:
 		\begin{itemize}
 			\item Bodhi-class
-			\item Bodhi-flipped
-			\item General
+			\item Bodhi-book
 		\end{itemize}
 	\end{itemize}
 \end{frame}
 
-\subsection{Overview of the work}
+%\subsection{Overview of the work}
 
-\begin{frame}{Classification and Overview of the work}
+\begin{frame}{Overview of the work}
 	\begin{itemize}
 		\item Bodhi-class
 		\begin{itemize}
-			\item Marks for offline exams
-			\item Archiving emails
+			\item {\color{red}Marks for offline exams (Stage I)}
+			\item {\color{blue}Archiving emails
+			\item Facebook style notifications
+			\item Miscellaneous}
+			\begin{itemize}
+				\item {\color{blue}In-video quizzes ON/OFF
+				\item Setting importance to threads
+				\item Email instructors when a new thread is added}
+			\end{itemize}
 		\end{itemize}
 		\item Bodhi-book
 		\begin{itemize}
-			\item Prerequisites and course graph
-			\item Access control
-		\end{itemize}
-		\item General
-		\begin{itemize}
-			\item Facebook style notifications
-			\item Miscellaneous
-			\begin{itemize}
-				\item In-video quizzes ON/OFF
-				\item Setting importance to threads
-				\item Email instructors when a new thread is added
-			\end{itemize}
+			\item {\color{blue}Prerequisites and course graph}
+			\item {\color{red}Access control (Stage I, {\color{blue}Modified in Stage II})}
 		\end{itemize}
 	\end{itemize}
 \end{frame}
 
 \section{Bodhi-class}
 
-\subsection{Marks for offline examinations}
+\subsection{Marks for offline examinations (Stage I)}
 
-\begin{frame}{Marks for offline examinations}
+\begin{frame}{Marks for offline examinations}{Stage I work}
 	\begin{block}{Problem Statement}
 		\begin{itemize}
 			\item Several offline exams are conducted in the Bodhi-class model
@@ -423,6 +422,186 @@
 	\end{figure}
 \end{frame}
 
+\subsection{Facebook style notifications}
+
+\begin{frame}{Facebook style notifications}
+	\begin{block}{Problem Statement}
+	\begin{itemize}
+		\item Frequent updates in courseware
+		\item Students may be unaware of the updates
+		\item Need for an interface for quick navigation to the updates
+	\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Specifications}
+	\begin{itemize}
+		\item Notifications must cover the following updates in a course:
+		\begin{itemize}
+			\item Publishing a new concept
+			\item Addition of new videos and documents
+			\item Publishing new quizzes
+			\item Uploading marksheet
+			\item Addition of new threads in discussion forum
+		\end{itemize}
+		\item Pending notification must be displayed
+		\item Hyperlinks must be provided for easy navigation
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{Design}{Storing the notifications}
+	\textbf{Storing the notifications (PUSH)}
+	\begin{enumerate}
+		\item \textbf{Notice} table stores the notification data
+		\begin{itemize}
+			\item \textit{course}: Foreign key to the course id
+			\item \textit{notice\_data}: Data displayed in the notification
+			\item \textit{notice\_url}: Hyperlinks of the updates
+			\item \textit{notice\_date}: Date and time
+		\end{itemize}
+		\item \textbf{ClearNotice} table stores the notifications clearing time
+		\begin{itemize}
+			\item \textit{user}: One to one mapping to the current user
+			\item \textit{clear\_time}: Stores time of clearing the notification
+		\end{itemize}
+	\end{enumerate}
+	\vspace{0.2in}
+	A function \textbf{add\_new\_notice()} has been created which pushes the notifications to the database
+\end{frame}
+
+\begin{frame}{Design}{Retrieving the notifications}
+	
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{./media/notif_flow}
+\caption{Flow chart showing the working of notifications retrieval}
+\label{fig:notif_flow}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Design}{User Interface}
+\textbf{User Interface}
+\begin{itemize}
+	\item A badge shows the number of pending notifications
+	\item Drop down list shows the categorized view
+\end{itemize}
+\begin{figure}
+\centering
+\includegraphics[width=0.3\linewidth]{./media/notif_ui}
+\caption{Notifications indicator along with the drop down list}
+\label{fig:notif_ui}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Design}{Detailed notifications view}
+\textbf{Detailed notifications view}
+	\begin{itemize}
+		\item Every single notifications is shown in a categorized way
+		\item These notifications can be used for navigation to those updates
+	\end{itemize}
+	\begin{figure}
+	\centering
+	\includegraphics[width=0.6\linewidth]{./media/detailed_view}
+	\label{fig:detailed_view}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Design}{Clearing the notifications}
+\textbf{Clearing the notifications}
+\begin{itemize}
+	\item The notifications that have been added after the user has cleared the notifications are fetched from the database
+	\item On clearing, the current time is added against the user's name in the \textit{clear\_time} field of the \textbf{ClearNotice} database table
+\end{itemize}
+\end{frame}
+
+\subsection{Miscellaneous}
+
+\begin{frame}{Miscellaneous}
+\textbf{Some of the minor additions to Bodhitree:}
+	\begin{itemize}
+		\item In-Video Quiz ON/OFF
+		\item Setting importance to threads
+		\item Email instructors on addition of a new thread
+	\end{itemize}
+\end{frame}
+
+\begin{frame}{In-Video Quiz ON/OFF}
+	\begin{block}{Problem Statement}
+	\begin{itemize}
+		\item Several videos have in-video quizzes
+		\item Quizzes pop up and interrupt the play
+		\item Choice for an uninterrupted playback is desirable
+	\end{itemize}
+	\end{block}
+\end{frame}
+
+\begin{frame}{Implementation}{User Interface}
+\begin{itemize}
+	\item Button created using CSS and JavaScript to toggle the video markers
+	\item Navigation links in TOC still present, only the pop-ups are disabled
+\end{itemize}
+\begin{figure}
+\centering
+\includegraphics[width=0.7\linewidth]{./media/toggle_ui}
+\caption{A button to turn the in-video quiz pop-up ON/OFF}
+\label{fig:toggle_ui}
+\end{figure}
+\end{frame}
+
+\begin{frame}{Implementation}{Mechanism used}
+\begin{itemize}
+	\item The video container is a component of React.js which controls the display and playback of the video
+	\item Video markers are passed as properties to the video container
+	\item When the video container loads, the value of the button is checked
+	\item ON, in-video quiz data passed to the video container
+	\item OFF, data not passed, container  reloads the video without the in-video quiz data
+\end{itemize}
+\end{frame}
+
+\begin{frame}{Setting importance to threads}
+\begin{block}{Problem Statement}
+	\begin{itemize}
+	\item Threads in the discussion forum can be sorted based on: \textit{`popularity'} and \textit{`earlier first'}
+	\item Some threads are more important than the others, option to set importance value and sort based on \textit{importance} must be present
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Implementation}{Setting the importance}
+	\begin{itemize}
+		\item When a new thread is added, the default importance value is 0
+		\item Instructor is able to set the value to a  number between 0 and 10
+		\item User viewing the discussion forum are able to sort the threads according to the importance set by the instructor
+	\end{itemize}
+	\begin{figure}
+	\centering
+	\includegraphics[width=0.7\linewidth]{./media/thread_imp}
+	\label{fig:thread_imp}
+	\end{figure}
+\end{frame}
+
+\begin{frame}{Email instructors when a new thread is added}
+\begin{block}{Problem Statement}
+	\begin{itemize}
+	\item Some threads in the discussion forum are started by the students seeking immediate help in certain aspects of the course
+	\item The instructor will be aware of the thread only after checking the discussion forums.
+	\item It is important that the instructor must be notified when new threads are started in the discussion forum
+	\end{itemize}
+\end{block}
+\end{frame}
+
+\begin{frame}{Implementation}
+	\begin{itemize}
+		\item Whenever a new thread is started in a course, all the instructors of the course are fetched (course creator as well as the TAs)
+		\item An email is sent to all of them, a sample is shown below
+	\end{itemize}
+	\begin{figure}
+	\centering
+	\includegraphics[width=0.9\linewidth]{./media/email_inst}
+	\label{fig:email_inst}
+	\end{figure}
+\end{frame}
+
 \section{Bodhi-book}
 
 \subsection{Prerequisites and course graph}
@@ -559,7 +738,7 @@ Several graph generation libraries used to generate initial course graphs:
 	\end{itemize}
 \end{frame}
 
-\subsection{Access control}
+\subsection{Access control (Stage I, Modified in Stage II)}
 
 \begin{frame}{Access control}{Motivation}
 	\textbf{Providing differential access to users towards the content}
@@ -809,45 +988,6 @@ Several graph generation libraries used to generate initial course graphs:
 	\end{figure}
 \end{frame}
 
-\section{General}
-
-\subsection{Facebook style notifications}
-
-\begin{frame}{Facebook style notifications}
-	\begin{block}{Problem Statement}
-	\begin{itemize}
-		\item Frequent updates in courseware
-		\item Students may be unaware
-		\item Need for an interface for quick navigation to the updates
-	\end{itemize}
-	\end{block}
-\end{frame}
-
-\begin{frame}{Specifications}
-	\begin{itemize}
-		\item Notifications must cover the following updates in a course:
-		\begin{itemize}
-			\item Publishing a new concept
-			\item Addition of new videos and documents
-			\item Publishing new quizzes
-			\item Uploading marksheet
-			\item Addition of new threads in discussion forum
-		\end{itemize}
-		\item Pending notification must be displayed
-		\item Hyperlinks must be provided for easy navigation
-	\end{itemize}
-\end{frame}
-
-\subsection{Miscellaneous}
-
-\begin{frame}{Miscellaneous}
-	\begin{itemize}
-		\item In-Video Quiz ON/OFF
-		\item Setting importance to threads
-		\item Email instructors on addition of a new thread
-	\end{itemize}
-\end{frame}
-
 %\subsection*{In-video quiz ON/OFF}
 %
 %\subsection*{Setting importance to threads}
@@ -876,7 +1016,11 @@ Several graph generation libraries used to generate initial course graphs:
 
 \begin{frame}{Conclusion}
 	\begin{itemize}
-		\item 
+		\item All the features that are developed as a part of this project are covered in the report and in this presentation
+		\item A lot of time is invested in testing the features and ensuring that they work correctly 
+		\item Unit test are written covering every line of the code, the aim being to ensure that the changes that future changes do not break these features
+		\item Complete code was written in accordance to the PEP 8 standards
+		\item The code that was pushed to Bodhitree as a part of this work was peer reviewed either by \textbf{Prasanth P} or by \textbf{Dheerendra Rathor}
 	\end{itemize}
 \end{frame}
 
@@ -913,9 +1057,21 @@ Several graph generation libraries used to generate initial course graphs:
   \begin{thebibliography}{10}
 
   \bibitem{flipped}
-  	The University of Texas at Austin: \small
-  	Faculty Innovation Center
-    \newblock  \small \url{https://facultyinnovate.utexas.edu/teaching/flipping-a-class}
+  \large The University of Texas at Austin:
+  \small Faculty Innovation Center
+  \newblock  \small \url{https://facultyinnovate.utexas.edu/teaching/flipping-a-class}
+  
+  \bibitem{btw}
+  \large Bodhitree website
+  \newblock  \small \url{http://bodhitree.cse.iitb.ac.in/mission/}
+  
+  \bibitem{django}
+  \large Django, The web framework for perfectionists with deadlines
+  \newblock  \small \url{https://docs.djangoproject.com/en/1.9/}
+  
+  \bibitem{react}
+  \large React, A javascript library for building user interfaces
+  \newblock  \small \url{https://facebook.github.io/react/docs/why-react.html}
  
 %  \bibitem{Someone2000}
 %    S.~Someone.

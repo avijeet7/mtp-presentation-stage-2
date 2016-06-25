@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2015.10.12)  24 JUN 2016 16:45
+This is pdfTeX, Version 3.1415926-2.5-1.40.14 (TeX Live 2013/Debian) (format=pdflatex 2016.4.22)  25 JUN 2016 22:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -930,415 +930,473 @@ LaTeX Font Warning: Font shape `OT1/cmss/m/n' in size <4> not available
 
 ] (./presentation.toc) [3
 
-] (./presentation.toc) [4
+] [4
 
 ]
-[5
-
-] (./presentation.toc) [6
-
-]
-<./media/flippedflowmodel.png, id=361, 622.325pt x 350.30875pt>
+<./media/flippedflowmodel.png, id=221, 622.325pt x 350.30875pt>
 File: ./media/flippedflowmodel.png Graphic file (type png)
 
 <use ./media/flippedflowmodel.png>
-Package pdftex.def Info: ./media/flippedflowmodel.png used on input line 162.
+Package pdftex.def Info: ./media/flippedflowmodel.png used on input line 156.
 (pdftex.def)             Requested size: 273.83728pt x 154.14166pt.
- [7
+ [5
 
  <./media/flippedflowmodel.png>]
-<./media/bmmt.png, id=394, 545.78906pt x 514.92375pt>
+<./media/bmmt.png, id=253, 545.78906pt x 514.92375pt>
 File: ./media/bmmt.png Graphic file (type png)
  <use ./media/bmmt.png>
-Package pdftex.def Info: ./media/bmmt.png used on input line 171.
+Package pdftex.def Info: ./media/bmmt.png used on input line 165.
 (pdftex.def)             Requested size: 171.14764pt x 161.46327pt.
 
-[8
+[6
 
- <./media/bmmt.png (PNG copy)>] (./presentation.toc) [9
-
-] [10
+ <./media/bmmt.png (PNG copy)>] [7
 
 ]
-(./presentation.toc) [11
+<./media/bt_com1.png, id=309, 845.40843pt x 597.73312pt>
+File: ./media/bt_com1.png Graphic file (type png)
+
+<use ./media/bt_com1.png>
+Package pdftex.def Info: ./media/bt_com1.png used on input line 207.
+(pdftex.def)             Requested size: 273.83728pt x 193.60426pt.
+ [8
+
+ <./media/bt_com1.png>] [9
+
+] (./presentation.toc)
+[10
+
+] [11
 
 ] [12
 
 ] (./presentation.toc) [13
 
-] (./presentation.toc)
-[14
+] (./presentation.toc) [14
 
 ] [15
 
-] (./presentation.toc) [16
-
-] [17
-
-] (./presentation.toc) [18
-
 ]
-(./presentation.toc) [19
+[16
 
-] [20
-
-] [21
-
-]
-<media/marksi.png, id=898, 846.16125pt x 313.17pt>
+] <media/marksi.png, id=585, 846.16125pt x 313.17pt>
 File: media/marksi.png Graphic file (type png)
  <use media/marksi.png>
-Package pdftex.def Info: media/marksi.png used on input line 310.
+Package pdftex.def Info: media/marksi.png used on input line 309.
 (pdftex.def)             Requested size: 273.83728pt x 101.34895pt.
 
-[22
+[17
 
- <./media/marksi.png>] <media/markss1.png, id=928, 848.16875pt x 86.3225pt>
+ <./media/marksi.png>] <media/markss1.png, id=615, 848.16875pt x 86.3225pt>
 File: media/markss1.png Graphic file (type png)
 
 <use media/markss1.png>
-Package pdftex.def Info: media/markss1.png used on input line 320.
+Package pdftex.def Info: media/markss1.png used on input line 319.
 (pdftex.def)             Requested size: 273.83728pt x 27.87006pt.
- [23
+ [18
 
  <./media/markss1.png>]
-LaTeX Font Info:    Try loading font information for U+msa on input line 340.
+LaTeX Font Info:    Try loading font information for U+msa on input line 339.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Try loading font information for U+msb on input line 340.
+LaTeX Font Info:    Try loading font information for U+msb on input line 339.
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
-) [24
+) [19
 
 ]
-<media/marksdb.png, id=982, 395.97937pt x 124.21407pt>
+<media/marksdb.png, id=670, 395.97937pt x 124.21407pt>
 File: media/marksdb.png Graphic file (type png)
  <use media/marksdb.png>
-Package pdftex.def Info: media/marksdb.png used on input line 353.
+Package pdftex.def Info: media/marksdb.png used on input line 352.
 (pdftex.def)             Requested size: 273.83728pt x 85.90111pt.
 
-[25
+[20
 
- <./media/marksdb.png (PNG copy)>] (./presentation.toc) [26
+ <./media/marksdb.png (PNG copy)>] (./presentation.toc) [21
 
-] [27
+] [22
 
-] [28
+] [23
 
 ]
-[29
+[24
 
-] <media/email_json.png, id=1136, 675.52374pt x 443.6575pt>
+] <media/email_json.png, id=815, 675.52374pt x 443.6575pt>
 File: media/email_json.png Graphic file (type png)
 
 <use media/email_json.png>
-Package pdftex.def Info: media/email_json.png used on input line 398.
+Package pdftex.def Info: media/email_json.png used on input line 397.
 (pdftex.def)             Requested size: 205.37926pt x 134.88545pt.
- [30
+ [25
 
  <./media/email_json.png>]
-<media/email_ui.png, id=1165, 694.595pt x 251.94125pt>
+<media/email_ui.png, id=845, 694.595pt x 251.94125pt>
 File: media/email_ui.png Graphic file (type png)
-
-<use media/email_ui.png>
-Package pdftex.def Info: media/email_ui.png used on input line 411.
+ <use media/email_ui.png>
+Package pdftex.def Info: media/email_ui.png used on input line 410.
 (pdftex.def)             Requested size: 273.83728pt x 99.32924pt.
- [31
+
+[26
 
  <./media/email_ui.png>]
-<media/email_search.png, id=1194, 841.1425pt x 383.4325pt>
+<media/email_search.png, id=873, 841.1425pt x 383.4325pt>
 File: media/email_search.png Graphic file (type png)
 
 <use media/email_search.png>
-Package pdftex.def Info: media/email_search.png used on input line 424.
+Package pdftex.def Info: media/email_search.png used on input line 423.
 (pdftex.def)             Requested size: 273.83728pt x 124.8247pt.
- [32
+ [27
 
  <./media/email_search.png>]
-(./presentation.toc) [33
+(./presentation.toc) [28
 
-] (./presentation.toc) [34
+] [29
 
-] [35
+] [30
 
-] [36
+] [31
+
+]
+<./media/notif_flow.png, id=1020, 845.40843pt x 597.73312pt>
+File: ./media/notif_flow.png Graphic file (type png)
+
+<use ./media/notif_flow.png>
+Package pdftex.def Info: ./media/notif_flow.png used on input line 480.
+(pdftex.def)             Requested size: 239.60567pt x 169.40715pt.
+ [32
+
+ <./media/notif_flow.png>]
+<./media/notif_ui.png, id=1049, 196.735pt x 194.7275pt>
+File: ./media/notif_ui.png Graphic file (type png)
+
+<use ./media/notif_ui.png>
+Package pdftex.def Info: ./media/notif_ui.png used on input line 494.
+(pdftex.def)             Requested size: 102.68962pt x 101.63919pt.
+ [33
+
+ <./media/notif_ui.png>]
+<./media/detailed_view.png, id=1078, 587.19376pt x 356.33125pt>
+File: ./media/detailed_view.png Graphic file (type png)
+
+<use ./media/detailed_view.png>
+Package pdftex.def Info: ./media/detailed_view.png used on input line 507.
+(pdftex.def)             Requested size: 205.37926pt x 124.6308pt.
+ [34
+
+ <./media/detailed_view.png>] [35
+
+]
+(./presentation.toc) [36
 
 ] [37
 
+] [38
+
 ]
-<media/add_prereq.png, id=1394, 608.2725pt x 171.64125pt>
+<./media/toggle_ui.png, id=1222, 471.7625pt x 85.31876pt>
+File: ./media/toggle_ui.png Graphic file (type png)
+
+<use ./media/toggle_ui.png>
+Package pdftex.def Info: ./media/toggle_ui.png used on input line 549.
+(pdftex.def)             Requested size: 239.60567pt x 43.33362pt.
+ [39
+
+ <./media/toggle_ui.png>] [40
+
+] [41
+
+]
+<./media/thread_imp.png, id=1304, 816.04875pt x 430.60875pt>
+File: ./media/thread_imp.png Graphic file (type png)
+
+<use ./media/thread_imp.png>
+Package pdftex.def Info: ./media/thread_imp.png used on input line 581.
+(pdftex.def)             Requested size: 239.60567pt x 126.43056pt.
+ [42
+
+ <./media/thread_imp.png>] [43
+
+]
+<./media/email_inst.png, id=1360, 740.7675pt x 112.42pt>
+File: ./media/email_inst.png Graphic file (type png)
+
+<use ./media/email_inst.png>
+Package pdftex.def Info: ./media/email_inst.png used on input line 603.
+(pdftex.def)             Requested size: 308.06367pt x 46.75291pt.
+ [44
+
+ <./media/email_inst.png>] (./presentation.toc) [45
+
+] (./presentation.toc) [46
+
+] [47
+
+] [48
+
+] [49
+
+]
+<media/add_prereq.png, id=1543, 608.2725pt x 171.64125pt>
 File: media/add_prereq.png Graphic file (type png)
 
 <use media/add_prereq.png>
-Package pdftex.def Info: media/add_prereq.png used on input line 479.
+Package pdftex.def Info: media/add_prereq.png used on input line 658.
 (pdftex.def)             Requested size: 205.37926pt x 57.9539pt.
- [38
+ [50
 
  <./media/add_prereq.png>]
-<./media/prereq_stud.png, id=1423, 397.485pt x 67.25125pt>
+<./media/prereq_stud.png, id=1573, 397.485pt x 67.25125pt>
 File: ./media/prereq_stud.png Graphic file (type png)
 
 <use ./media/prereq_stud.png>
-Package pdftex.def Info: ./media/prereq_stud.png used on input line 491.
+Package pdftex.def Info: ./media/prereq_stud.png used on input line 670.
 (pdftex.def)             Requested size: 171.14764pt x 28.95747pt.
- [39
+ [51
 
- <./media/prereq_stud.png>] [40
+ <./media/prereq_stud.png>] [52
 
 ]
-<media/Graphviz.png, id=1479, 955.57pt x 439.6425pt>
+<media/Graphviz.png, id=1628, 955.57pt x 439.6425pt>
 File: media/Graphviz.png Graphic file (type png)
  <use media/Graphviz.png>
-Package pdftex.def Info: media/Graphviz.png used on input line 510.
+Package pdftex.def Info: media/Graphviz.png used on input line 689.
 (pdftex.def)             Requested size: 273.83728pt x 125.98366pt.
 
-[41
+[53
 
  <./media/Graphviz.png>]
-<media/PrereqGraph.png, id=1507, 496.10344pt x 173.14688pt>
+<media/PrereqGraph.png, id=1656, 496.10344pt x 173.14688pt>
 File: media/PrereqGraph.png Graphic file (type png)
 
 <use media/PrereqGraph.png>
-Package pdftex.def Info: media/PrereqGraph.png used on input line 520.
+Package pdftex.def Info: media/PrereqGraph.png used on input line 699.
 (pdftex.def)             Requested size: 273.83728pt x 95.57452pt.
- [42
+ [54
 
  <./media/PrereqGraph.png>]
-<media/vis_js.png, id=1536, 825.0825pt x 513.92pt>
+<media/vis_js.png, id=1686, 825.0825pt x 513.92pt>
 File: media/vis_js.png Graphic file (type png)
  <use media/vis_js.png>
-Package pdftex.def Info: media/vis_js.png used on input line 530.
+Package pdftex.def Info: media/vis_js.png used on input line 709.
 (pdftex.def)             Requested size: 273.83728pt x 170.5665pt.
 
-[43
+[55
 
  <./media/vis_js.png>]
-LaTeX Font Info:    Try loading font information for OMS+cmss on input line 552
+LaTeX Font Info:    Try loading font information for OMS+cmss on input line 731
 .
-LaTeX Font Info:    No file OMScmss.fd. on input line 552.
+LaTeX Font Info:    No file OMScmss.fd. on input line 731.
 
 
 LaTeX Font Warning: Font shape `OMS/cmss/m/n' undefined
 (Font)              using `OMS/cmsy/m/n' instead
-(Font)              for symbol `textbraceleft' on input line 552.
+(Font)              for symbol `textbraceleft' on input line 731.
 
-[44
+[56
 
-] [45
+] [57
 
-] (./presentation.toc) [46
+] (./presentation.toc) [58
 
 ]
-<media/AccessControl.png, id=1664, 606.76688pt x 255.95625pt>
+<media/AccessControl.png, id=1805, 606.76688pt x 255.95625pt>
 File: media/AccessControl.png Graphic file (type png)
 
 <use media/AccessControl.png>
-Package pdftex.def Info: media/AccessControl.png used on input line 576.
+Package pdftex.def Info: media/AccessControl.png used on input line 755.
 (pdftex.def)             Requested size: 205.37926pt x 86.63731pt.
- [47
+ [59
 
  <./media/AccessControl.png>]
-<./media/1.jpg, id=1693, 845.40843pt x 597.73312pt>
+<./media/1.jpg, id=1834, 845.40843pt x 597.73312pt>
 File: ./media/1.jpg Graphic file (type jpg)
  <use ./media/1.jpg>
-Package pdftex.def Info: ./media/1.jpg used on input line 585.
+Package pdftex.def Info: ./media/1.jpg used on input line 764.
 (pdftex.def)             Requested size: 239.60567pt x 169.40715pt.
 
-[48
+[60
 
- <./media/1.jpg>] <./media/2.jpg, id=1721, 845.40843pt x 597.73312pt>
+ <./media/1.jpg>] <./media/2.jpg, id=1862, 845.40843pt x 597.73312pt>
 File: ./media/2.jpg Graphic file (type jpg)
 
 <use ./media/2.jpg>
-Package pdftex.def Info: ./media/2.jpg used on input line 594.
+Package pdftex.def Info: ./media/2.jpg used on input line 773.
 (pdftex.def)             Requested size: 239.60567pt x 169.40715pt.
- [49
+ [61
 
  <./media/2.jpg>]
-<./media/3.jpg, id=1750, 845.40843pt x 597.73312pt>
+<./media/3.jpg, id=1892, 845.40843pt x 597.73312pt>
 File: ./media/3.jpg Graphic file (type jpg)
  <use ./media/3.jpg>
-Package pdftex.def Info: ./media/3.jpg used on input line 603.
+Package pdftex.def Info: ./media/3.jpg used on input line 782.
 (pdftex.def)             Requested size: 239.60567pt x 169.40715pt.
 
-[50
+[62
 
- <./media/3.jpg>] <./media/4.jpg, id=1779, 845.40843pt x 597.73312pt>
+ <./media/3.jpg>] <./media/4.jpg, id=1920, 845.40843pt x 597.73312pt>
 File: ./media/4.jpg Graphic file (type jpg)
 
 <use ./media/4.jpg>
-Package pdftex.def Info: ./media/4.jpg used on input line 612.
+Package pdftex.def Info: ./media/4.jpg used on input line 791.
 (pdftex.def)             Requested size: 239.60567pt x 169.40715pt.
- [51
+ [63
 
  <./media/4.jpg>]
-<./media/5.jpg, id=1807, 845.40843pt x 597.73312pt>
+<./media/5.jpg, id=1948, 845.40843pt x 597.73312pt>
 File: ./media/5.jpg Graphic file (type jpg)
  <use ./media/5.jpg>
-Package pdftex.def Info: ./media/5.jpg used on input line 621.
+Package pdftex.def Info: ./media/5.jpg used on input line 800.
 (pdftex.def)             Requested size: 239.60567pt x 169.40715pt.
 
-[52
+[64
 
- <./media/5.jpg>] <./media/6.jpg, id=1835, 845.40843pt x 597.73312pt>
+ <./media/5.jpg>] <./media/6.jpg, id=1976, 845.40843pt x 597.73312pt>
 File: ./media/6.jpg Graphic file (type jpg)
 
 <use ./media/6.jpg>
-Package pdftex.def Info: ./media/6.jpg used on input line 630.
+Package pdftex.def Info: ./media/6.jpg used on input line 809.
 (pdftex.def)             Requested size: 239.60567pt x 169.40715pt.
- [53
+ [65
 
  <./media/6.jpg>]
-<./media/7.jpg, id=1863, 845.40843pt x 597.73312pt>
+<./media/7.jpg, id=2005, 845.40843pt x 597.73312pt>
 File: ./media/7.jpg Graphic file (type jpg)
  <use ./media/7.jpg>
-Package pdftex.def Info: ./media/7.jpg used on input line 639.
+Package pdftex.def Info: ./media/7.jpg used on input line 818.
 (pdftex.def)             Requested size: 239.60567pt x 169.40715pt.
 
-[54
+[66
 
- <./media/7.jpg>] [55
+ <./media/7.jpg>] [67
 
 ]
-<./media/premium_db1.png, id=1919, 639.38875pt x 259.97125pt>
+<./media/premium_db1.png, id=2060, 639.38875pt x 259.97125pt>
 File: ./media/premium_db1.png Graphic file (type png)
 
 <use ./media/premium_db1.png>
-Package pdftex.def Info: ./media/premium_db1.png used on input line 672.
+Package pdftex.def Info: ./media/premium_db1.png used on input line 851.
 (pdftex.def)             Requested size: 239.60567pt x 97.42154pt.
- [56
+ [68
 
  <./media/premium_db1.png>]
-<./media/tag_ui.png, id=1948, 373.395pt x 163.61125pt>
+<./media/tag_ui.png, id=2089, 373.395pt x 163.61125pt>
 File: ./media/tag_ui.png Graphic file (type png)
 
 <use ./media/tag_ui.png>
-Package pdftex.def Info: ./media/tag_ui.png used on input line 686.
+Package pdftex.def Info: ./media/tag_ui.png used on input line 865.
 (pdftex.def)             Requested size: 171.14764pt x 74.99246pt.
- [57
+ [69
 
  <./media/tag_ui.png>]
-<./media/ACdfd.png, id=1977, 423.83344pt x 374.90062pt>
+<./media/ACdfd.png, id=2119, 423.83344pt x 374.90062pt>
 File: ./media/ACdfd.png Graphic file (type png)
 
 <use ./media/ACdfd.png>
-Package pdftex.def Info: ./media/ACdfd.png used on input line 695.
+Package pdftex.def Info: ./media/ACdfd.png used on input line 874.
 (pdftex.def)             Requested size: 205.37926pt x 181.6664pt.
- [58
+ [70
 
  <./media/ACdfd.png>]
-<./media/ac_no.png, id=2007, 339.2675pt x 117.43875pt>
+<./media/ac_no.png, id=2148, 339.2675pt x 117.43875pt>
 File: ./media/ac_no.png Graphic file (type png)
  <use ./media/ac_no.png>
-Package pdftex.def Info: ./media/ac_no.png used on input line 708.
+Package pdftex.def Info: ./media/ac_no.png used on input line 887.
 (pdftex.def)             Requested size: 171.14764pt x 59.24248pt.
 
-[59
+[71
 
  <./media/ac_no.png>]
-<media/SUgetdata.png, id=2036, 542.77782pt x 255.95625pt>
+<media/SUgetdata.png, id=2177, 542.77782pt x 255.95625pt>
 File: media/SUgetdata.png Graphic file (type png)
 
 <use media/SUgetdata.png>
-Package pdftex.def Info: media/SUgetdata.png used on input line 717.
+Package pdftex.def Info: media/SUgetdata.png used on input line 896.
 (pdftex.def)             Requested size: 342.2953pt x 161.42122pt.
- [60
+ [72
 
  <./media/SUgetdata.png>]
-<media/premiumAccesses.png, id=2065, 248.93pt x 124.465pt>
+<media/premiumAccesses.png, id=2206, 248.93pt x 124.465pt>
 File: media/premiumAccesses.png Graphic file (type png)
 
 <use media/premiumAccesses.png>
-Package pdftex.def Info: media/premiumAccesses.png used on input line 736.
+Package pdftex.def Info: media/premiumAccesses.png used on input line 915.
 (pdftex.def)             Requested size: 160.19762pt x 80.09982pt.
- [61
+ [73
 
  <./media/premiumAccesses.png>]
-<media/CSVupload.png, id=2093, 450.68375pt x 352.31625pt>
+<media/CSVupload.png, id=2235, 450.68375pt x 352.31625pt>
 File: media/CSVupload.png Graphic file (type png)
 
 <use media/CSVupload.png>
-Package pdftex.def Info: media/CSVupload.png used on input line 745.
+Package pdftex.def Info: media/CSVupload.png used on input line 924.
 (pdftex.def)             Requested size: 205.37926pt x 160.55142pt.
- [62
+ [74
 
  <./media/CSVupload.png>]
-<./media/usertaguploadsuccess.png, id=2123, 393.47pt x 504.88625pt>
+<./media/usertaguploadsuccess.png, id=2264, 393.47pt x 504.88625pt>
 File: ./media/usertaguploadsuccess.png Graphic file (type png)
 
 <use ./media/usertaguploadsuccess.png>
-Package pdftex.def Info: ./media/usertaguploadsuccess.png used on input line 75
-4.
+Package pdftex.def Info: ./media/usertaguploadsuccess.png used on input line 93
+3.
 (pdftex.def)             Requested size: 136.91603pt x 175.6805pt.
- [63
+ [75
 
  <./media/usertaguploadsuccess.png>]
-[64
+[76
 
-] <media/removeusers.png, id=2178, 520.94624pt x 270.00874pt>
+] <media/removeusers.png, id=2320, 520.94624pt x 270.00874pt>
 File: media/removeusers.png Graphic file (type png)
 
 <use media/removeusers.png>
-Package pdftex.def Info: media/removeusers.png used on input line 772.
+Package pdftex.def Info: media/removeusers.png used on input line 951.
 (pdftex.def)             Requested size: 205.37926pt x 106.44833pt.
- [65
+ [77
 
- <./media/removeusers.png>] [66
+ <./media/removeusers.png>] [78
 
 ]
-<media/ct_create.png, id=2234, 303.1325pt x 343.2825pt>
+<media/ct_create.png, id=2375, 303.1325pt x 343.2825pt>
 File: media/ct_create.png Graphic file (type png)
 
 <use media/ct_create.png>
-Package pdftex.def Info: media/ct_create.png used on input line 791.
+Package pdftex.def Info: media/ct_create.png used on input line 970.
 (pdftex.def)             Requested size: 102.68962pt x 116.2902pt.
- [67
+ [79
 
  <./media/ct_create.png>]
-<media/ct_set.png, id=2264, 415.5525pt x 197.73875pt>
+<media/ct_set.png, id=2405, 415.5525pt x 197.73875pt>
 File: media/ct_set.png Graphic file (type png)
  <use media/ct_set.png>
-Package pdftex.def Info: media/ct_set.png used on input line 800.
+Package pdftex.def Info: media/ct_set.png used on input line 979.
 (pdftex.def)             Requested size: 171.14764pt x 81.43849pt.
 
-[68
+[80
 
- <./media/ct_set.png>] <media/gt1.png, id=2292, 572.1375pt x 198.7425pt>
+ <./media/ct_set.png>] <media/gt1.png, id=2434, 572.1375pt x 198.7425pt>
 File: media/gt1.png Graphic file (type png)
 
 <use media/gt1.png>
-Package pdftex.def Info: media/gt1.png used on input line 810.
+Package pdftex.def Info: media/gt1.png used on input line 989.
 (pdftex.def)             Requested size: 205.37926pt x 71.34102pt.
- <media/gt2.png, id=2293, 569.12625pt x 271.0125pt>
+ <media/gt2.png, id=2435, 569.12625pt x 271.0125pt>
 File: media/gt2.png Graphic file (type png)
 
 <use media/gt2.png>
-Package pdftex.def Info: media/gt2.png used on input line 810.
+Package pdftex.def Info: media/gt2.png used on input line 989.
 (pdftex.def)             Requested size: 205.37926pt x 97.80013pt.
- [69
+ [81
 
  <./media/gt1.png> <./media/gt2.png>]
-(./presentation.toc) [70
+(./presentation.toc) [82
 
-] (./presentation.toc) [71
+] [83
 
-] [72
-
-] [73
-
-]
-(./presentation.toc) [74
-
-] [75
-
-] (./presentation.toc) [76
-
-] [77
-
-] [78
+] [84
 
  </usr/share/texmf/tex/latex/beamer/base/art/beamericonarticle.pdf>]
 \tf@nav=\write6
@@ -1350,13 +1408,14 @@ Package pdftex.def Info: media/gt2.png used on input line 810.
 \tf@snm=\write8
 \openout8 = `presentation.snm'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 928.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 928.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1084.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1084.
  (./presentation.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 928.
-Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 928.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1084.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 1084.
+
 Package rerunfilecheck Info: File `presentation.out' has not changed.
-(rerunfilecheck)             Checksum: 3873F822CF1297990186B59EF658D038;1125.
+(rerunfilecheck)             Checksum: 6E41D1FB9F970D4ADAEB525496DF837C;719.
 
 
 LaTeX Font Warning: Size substitutions with differences
@@ -1365,16 +1424,16 @@ LaTeX Font Warning: Size substitutions with differences
 
 LaTeX Font Warning: Some font shapes were not available, defaults substituted.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 928.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1084.
  ) 
 Here is how much of TeX's memory you used:
- 16746 strings out of 493304
- 310305 string characters out of 6139870
- 386005 words of memory out of 5000000
- 19523 multiletter control sequences out of 15000+600000
+ 16798 strings out of 493304
+ 311454 string characters out of 6139871
+ 381915 words of memory out of 5000000
+ 19567 multiletter control sequences out of 15000+600000
  14695 words of font info for 55 fonts, out of 8000000 for 9000
  957 hyphenation exceptions out of 8191
- 55i,16n,65p,401b,714s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,16n,65p,401b,666s stack positions out of 5000i,500n,10000p,200000b,80000s
 </usr/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss10.pfb></us
 r/share/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss12.pfb></usr/shar
 e/texlive/texmf-dist/fonts/type1/public/amsfonts/cm/cmss8.pfb></usr/share/texli
@@ -1383,10 +1442,10 @@ f-dist/fonts/type1/public/amsfonts/cm/cmssbx10.pfb></usr/share/texlive/texmf-di
 st/fonts/type1/public/amsfonts/cm/cmssi10.pfb></usr/share/texlive/texmf-dist/fo
 nts/type1/public/amsfonts/cm/cmsy10.pfb></usr/share/texlive/texmf-dist/fonts/ty
 pe1/public/amsfonts/cm/cmtt10.pfb>
-Output written on presentation.pdf (78 pages, 1884581 bytes).
+Output written on presentation.pdf (84 pages, 2084340 bytes).
 PDF statistics:
- 2717 PDF objects out of 2984 (max. 8388607)
- 2525 compressed objects within 26 object streams
- 209 named destinations out of 1000 (max. 500000)
- 422 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 2649 PDF objects out of 2984 (max. 8388607)
+ 2438 compressed objects within 25 object streams
+ 224 named destinations out of 1000 (max. 500000)
+ 401 words of extra memory for PDF output out of 10000 (max. 10000000)
 
